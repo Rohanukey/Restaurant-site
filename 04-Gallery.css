@@ -600,7 +600,7 @@ header {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 80px;
+        gap: 40px;
     }
     
     .info_1 {
