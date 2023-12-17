@@ -1,0 +1,617 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*--------------------------Top Area----------------------------------*/
+
+.Top-area {
+    width: auto;
+    height: 50px;
+    background-color: #737373;
+    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    width: auto;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.icons {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.info img {
+    width: 20px;
+    height: 20px;
+}
+
+.info a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+
+.icons img {
+    height: 20px;
+    width: 20px;
+    border: none;
+
+}
+
+
+/*-------------------------------Header---------------------------------------*/
+
+
+.section {
+
+    /* filter: brightness(50%); */
+    height: 500px;
+    width: 100%;
+    opacity: 1;
+    position: relative;
+    background-color: black;
+}
+
+
+.section::before {
+    content: "";
+    background-image: url(https://uttardakshin.in/wp-content/uploads/2018/05/parllax-0122.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    inset: 0;
+    filter: brightness(50%);
+}
+
+
+header {
+    height: 120px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+
+}
+
+
+
+
+.nav {
+
+    height: 117px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 20px;
+}
+
+.nav li {
+    list-style: none;
+    color: white;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.nav li:hover {
+    list-style: none;
+    color: #c59d5f;
+    transition: 0.6s;
+}
+
+#Gallery {
+    border: 2px solid #c59d5f;
+    padding: 5px 15px;
+}
+
+
+.section_body {
+    width: auto;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    isolation: isolate;
+
+
+}
+
+.section_body h1 {
+    font-size: 110px;
+    font-family: 'Herr Von Muellerhoff', cursive;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+}
+
+.section_body h2 {
+    font-size: 50px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section_body h3 {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.section_body button {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    opacity: 0.8;
+    border: none;
+    border-radius: 25px;
+    height: 40px;
+    width: 125px;
+}
+
+.section_body button:hover {
+    color: black;
+    background-color: white;
+}
+
+.gal {
+    width: auto;
+    padding: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;
+    justify-items: center;
+    gap: 10px;
+}
+
+.gal img {
+    width: 100%;
+}
+
+
+.Card_5 {
+    height: 800px;
+    width: auto;
+    background-color: black;
+}
+
+.Card5_info {
+    height: 350px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.info_1 {
+    height: 300px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.info_1 h4 {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+
+.info_1 span {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+
+.Card5_contacts {
+    height: 400px;
+    width: auto;
+
+}
+
+.icon {
+    height: 300px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon span {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.icons_2 {
+    height: 200px;
+    width: auto;
+    display: flex;
+    gap: 20px;
+}
+
+.icons_2 img {
+    border: none;
+    border-radius: 20px;
+}
+
+.sp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sp span {
+    color: white;
+}
+
+.sp li {
+    color: white;
+}
+
+.lis {
+    display: flex;
+}
+
+.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+/* 
+.nav li {
+    margin-right: 20px;
+    /* Adjust spacing between menu items as needed 
+} */
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    /* Set your desired text color */
+    font-weight: bold;
+    /* Optional: Adjust font weight */
+    font-size: 16px;
+    /* Optional: Adjust font size */
+}
+
+
+.logo h2{
+    color: white;
+    font-size: 30px;
+    line-height: 40px;
+   }
+
+.bar {
+    display: none;
+}
+
+.cover {
+    display: none;
+}
+
+
+.hidden_nav {
+    min-height: 300px;
+    width: 300px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+    left: 25%;
+
+}
+
+.hidden_nav li {
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.hidden_nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.hidden_nav a:hover {
+    background-color: lightcoral;
+    border: none;
+}
+
+
+@media screen and (768px < width <=1300px) {
+    .nav li {
+        list-style: none;
+        color: white;
+        text-align: center;
+    }
+
+
+    .gal {
+        width: auto;
+        padding: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-content: center;
+        justify-items: center;
+        gap: 10px;
+    }
+
+    .gal img {
+        width: 100%;
+    }
+
+    .nav {
+        height: 117px;
+        width: 1000px;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        gap: 10px;
+    }
+
+    .Card5_info {
+        height: 350px;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+    }
+
+    .Card_5 {
+        height: 800px;
+        width: auto;
+        background-color: black;
+        padding: 20px;
+    }
+
+}
+
+@media screen and (680px < width <= 769px) {
+
+    .bar i {
+        color: white;
+    }
+    .bar {
+        display: block;
+    }
+    .nav {
+        display: none;
+    }
+
+    header {
+        padding: 20px;
+        height: 120px;
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+    
+    }
+
+    .gal {
+        width: auto;
+        padding: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-content: center;
+        justify-items: center;
+        gap: 10px;
+    }
+
+}
+@media screen and (480px < width <= 679px) {
+
+    .bar i {
+        color: white;
+    }
+    .bar {
+        display: block;
+    }
+    .nav {
+        display: none;
+    }
+
+    header {
+        padding: 20px;
+        height: 120px;
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+    
+    }
+
+    .gal {
+        width: auto;
+        padding: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-content: center;
+        justify-items: center;
+        gap: 10px;
+    }
+
+    .info_1 span {
+        font-size: 1.2rem;
+        color: white;
+        text-align: center;
+    }
+
+    .sp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .Card_5 {
+        height: 800px;
+        width: auto;
+        background-color: black;
+        padding: 20px;
+    }
+    .lis {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+
+}
+@media screen and ( max-width: 481px) {
+
+    .Top-area {
+        display: none;
+    }
+
+    .bar i {
+        color: white;
+    }
+    .bar {
+        display: block;
+    }
+    .nav {
+        display: none;
+    }
+
+    header {
+        padding: 20px;
+        height: 120px;
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+    
+    }
+
+    .gal {
+        width: auto;
+        padding: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-content: center;
+        justify-items: center;
+        gap: 10px;
+    }
+
+    .info_1 span {
+        font-size: 1.2rem;
+        color: white;
+        text-align: center;
+    }
+
+    .sp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .Card_5 {
+        height: 800px;
+        width: auto;
+        background-color: black;
+        padding: 20px;
+    }
+    .lis {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .info_1 span {
+        font-size: 1rem;
+        color: white;
+        text-align: center;
+    }
+
+    .icons_2 {
+        height: 50px;
+        width: auto;
+        display: flex;
+        gap: 20px;
+    }
+    
+    .icon {
+        height: 200px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .Card5_info {
+        height: 350px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+    }
+    
+    .info_1 {
+        height: 300px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+}
+
+
+

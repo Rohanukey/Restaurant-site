@@ -1,0 +1,1617 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*--------------------------Top Area----------------------------------*/
+
+.Top-area {
+    width: auto;
+    height: 50px;
+    background-color: #737373;
+    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    width: auto;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.icons {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.info img {
+    width: 20px;
+    height: 20px;
+}
+
+.info a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+
+.icons img {
+    height: 20px;
+    width: 20px;
+    border: none;
+
+}
+
+
+/*-------------------------------Header---------------------------------------*/
+
+
+.section {
+
+    /* filter: brightness(50%); */
+    height: 1000px;
+    width: 100%;
+    opacity: 1;
+    position: relative;
+    background-color: black;
+}
+
+
+.section::before {
+    content: "";
+    background-image: url(Assets/background_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    inset: 0;
+    filter: brightness(50%);
+}
+
+
+header {
+    height: 120px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo {
+    width: 300px;
+    display: inline;
+    font-family: sans-serif;
+}
+
+.logo img {
+    width: 100%
+}
+
+.bar {
+    display: none;
+}
+
+
+.nav {
+
+    height: 117px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.nav li {
+    list-style: none;
+    color: white;
+    margin-left: -20;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.nav ul {
+    display: flex;
+    gap: 40px
+}
+
+.nav li:hover {
+    list-style: none;
+    color: #c59d5f;
+    transition: 0.6s;
+}
+
+#Home {
+    border: 2px solid #c59d5f;
+    padding: 5px 15px;
+}
+
+
+.section_body {
+    width: auto;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    isolation: isolate;
+
+
+}
+
+.section_body h1 {
+    font-size: 110px;
+    font-family: 'Herr Von Muellerhoff', cursive;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    /* position: relative; */
+    animation-name: top-down;
+    animation-duration: 1s;
+    transition: 1s infinite alternate;
+}
+
+.section_body h2 {
+    font-size: 50px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    animation-name: down-up;
+    animation-duration: 1s;
+    transition: 1s linear;
+}
+
+.section_body h3 {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+
+    animation-name: grow;
+    animation-duration: 2s;
+    transition: 2s linear;
+}
+
+.section_body button {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    opacity: 0.8;
+    border: none;
+    border-radius: 25px;
+    height: 40px;
+    width: 125px;
+}
+
+.section_body button:hover {
+    color: black;
+    background-color: white;
+}
+
+
+.cover {
+    display: none;
+}
+
+.hidden_nav {
+    min-height: 300px;
+    width: 300px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+    left: 25%;
+
+}
+
+.hidden_nav li {
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.hidden_nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.hidden_nav a:hover {
+    background-color: lightcoral;
+    border: none;
+}
+
+
+.Card_1 {
+    padding: 20px;
+    width: auto;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Card1_info {
+    width: 600px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Card1_img {
+    height: 100%;
+    max-width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+
+
+.Card1_info h1 {
+    font-family: "Herr Von Muellerhoff", Palatino, serif;
+    font-size: 100px;
+    font-weight: normal;
+    letter-spacing: 0;
+    padding: 0 72px;
+    margin: 0 -72px;
+    color: #c59d5f;
+}
+
+.Card1_info h2 {
+    color: #3c3950;
+    line-height: 69px;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+}
+
+.Card1_info p {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+}
+
+.Card1_info h3 {
+    color: #c59d5f;
+    line-height: 69px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+}
+
+
+.Card_2 {
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+
+
+.Card_2::before {
+    content: "";
+    background-image: url(https://uttardakshin.in/wp-content/uploads/2018/05/parllax-0122.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    inset: 0;
+    filter: brightness(50%);
+
+}
+
+
+.Card2_info {
+    width: auto;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    isolation: isolate;
+}
+
+.Card2_info h1 {
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 0;
+    font-size: 50px;
+    color: white;
+    letter-spacing: 5px;
+}
+
+.Card2_info h2 {
+    position: relative;
+    font-family: "Herr Von Muellerhoff", Palatino, serif;
+    font-size: 100px;
+    font-weight: normal;
+    letter-spacing: 0;
+    text-transform: none;
+    padding: 0 72px;
+    margin: 0 -72px;
+    color: #c59d5f;
+    z-index: 1;
+    top: -50px;
+
+}
+
+
+.Card_3 {
+    padding: 20px;
+    display: flex;
+    height: 600px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.Card3_img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.Card3_img img {
+    height: 250px;
+    width: 250px;
+}
+
+.Card3_info {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.Card3_info h1 {
+    position: relative;
+    font-family: "Herr Von Muellerhoff", Palatino, serif;
+    font-size: 100px;
+    font-weight: normal;
+    letter-spacing: 0;
+    text-transform: none;
+    padding: 0 72px;
+    margin: 0 -72px;
+    color: #c59d5f;
+    z-index: 1;
+
+}
+
+.Card3_info h2 {
+    position: absolute;
+    font-family: 'Montserrat';
+    font-size: 50px;
+    color: #3c3950;
+    font-weight: 700;
+    z-index: 0;
+}
+
+.Card3_info p {
+    color: #3c3950;
+    font-family: 'Cabin';
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.Card3_info a {
+    cursor: pointer;
+    font-size: 19px;
+    color: #c59d5f;
+    font-weight: 700;
+}
+
+.Card_4 {
+    width: auto;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details {
+    height: 500px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Card_4 img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: none;
+}
+
+.Card_4 h1 {
+    font-family: 'Montserrat';
+    font-size: 50px;
+    color: #3c3950;
+    font-weight: 700;
+}
+
+.Card_4 h2 {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    color: #c59d5f;
+    font-weight: 700;
+}
+
+.Card_4 h3 {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    color: #3c3950;
+    font-weight: 300;
+}
+
+.Card_4 p {
+    font-size: 80px;
+
+}
+
+
+.Card_5 {
+    height: 800px;
+    width: auto;
+    background-color: black;
+}
+
+.Card5_info {
+    height: 350px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.info_1 {
+    height: 300px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.info_1 h4 {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+
+.info_1 span {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+
+.Card5_contacts {
+    height: 400px;
+    width: auto;
+
+}
+
+.icon {
+    height: 300px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon span {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.icons_2 {
+    height: 200px;
+    width: auto;
+    display: flex;
+    gap: 20px;
+}
+
+.icons_2 img {
+    border: none;
+    border-radius: 20px;
+}
+
+.sp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sp span {
+    color: white;
+}
+
+.sp li {
+    color: white;
+}
+
+.lis {
+    display: flex;
+}
+
+
+/*---------------------------Slider------------------------------------------*/
+
+.container {
+    max-width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-container {
+    position: relative;
+    max-width: 75%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.slider-container h1 {
+    text-align: center;
+    color: #3c3950;
+    line-height: 69px;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+}
+
+.slider-container h3 {
+    color: #c09557;
+    font-size: 24px;
+    line-height: 69px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+}
+
+.slider-container p {
+    color: #3c3950;
+    font-size: 24px;
+    line-height: 69px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    max-height: 100%;
+}
+
+.slide {
+    min-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.slide img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: none;
+    display: block;
+}
+
+.text-overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .text-overlay {
+        font-size: 18px;
+    }
+
+    .slider-btn {
+        font-size: 18px;
+    }
+}
+
+
+
+/*-------------------------------------------------------------------------------*/
+
+.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+/* .nav li {
+    margin-right: 20px;
+    Adjust spacing between menu items as needed */
+
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    /* Set your desired text color */
+    font-weight: bold;
+    /* Optional: Adjust font weight */
+    font-size: 16px;
+    /* Optional: Adjust font size */
+}
+
+
+
+.logo h2{
+ color: white;
+ font-size: 30px;
+ line-height: 40px;
+}
+
+
+/*-----------------------------Animations------------------------------------------*/
+
+@keyframes top-down {
+    0% {
+        transform: translateY(-450px);
+    }
+
+    100% {
+        transform: translateY(0px)
+    }
+}
+
+
+@keyframes down-up {
+    0% {
+        transform: translateY(25px);
+        opacity: 0.4;
+
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+
+}
+
+@keyframes grow {
+    0% {
+        opacity: 0.3;
+    }
+    25% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 0.8;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+@media (1023px < width < 1300px) {
+
+
+    header {
+        padding: 20px;
+        height: 120px;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+
+    .nav {
+
+        height: 117px;
+        width: 1000px;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        gap: 20px;
+    }
+
+    .Card_1 {
+        padding: 20px;
+        width: auto;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .Card1_info {
+        width: 500px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .Card1_img {
+        height: 100%;
+        width: auto;
+    }
+
+    .Card1_img img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        /* Removes extra space beneath the image */
+        margin: 0 auto;
+        /* Centers the image within its container */
+    }
+
+
+
+    .Card_3 {
+        display: flex;
+        height: 700px;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+
+
+    .Card3_img img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .container {
+        max-width: 100%;
+        height: 650px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slider-container {
+        position: relative;
+        max-width: 75%;
+        overflow: hidden;
+        max-height: 100%;
+    }
+
+    .slider-container h1 {
+        text-align: center;
+        color: #3c3950;
+        line-height: 69px;
+        font-size: 2rem;
+        font-weight: 700;
+        font-family: 'Montserrat';
+    }
+
+    .slider-container h3 {
+        color: #c09557;
+        font-size: 24px;
+        line-height: 69px;
+        font-weight: 700;
+        font-family: 'Montserrat';
+    }
+
+    .slider-container p {
+        color: #3c3950;
+        font-size: 1.2rem;
+        line-height: 69px;
+        font-weight: 700;
+        font-family: 'Montserrat';
+    }
+
+    .slider {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        max-height: 100%;
+    }
+
+    .slide {
+        min-width: 100%;
+        max-height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        box-sizing: border-box;
+        position: relative;
+    }
+
+    .slide img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: none;
+        display: block;
+    }
+
+    .text-overlay {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        color: #fff;
+        font-size: 24px;
+    }
+
+    .slider-btn {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 24px;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .prev {
+        left: 10px;
+    }
+
+    .next {
+        right: 10px;
+    }
+
+    @media screen and (max-width: 600px) {
+        .text-overlay {
+            font-size: 18px;
+        }
+
+        .slider-btn {
+            font-size: 18px;
+        }
+    }
+
+    .info_1 h4 {
+        font-size: 1.6rem;
+        color: white;
+        text-align: center;
+    }
+
+    .info_1 span {
+        font-size: 1.25rem;
+        color: white;
+        text-align: center;
+    }
+
+    .Card_5 {
+        height: 700px;
+        width: auto;
+        background-color: black;
+    }
+
+    .Card5_contacts {
+        height: 150px;
+        width: auto;
+    }
+
+    .Card5_info {
+        padding: 20px;
+        height: 350px;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .icon {
+        height: 150px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .sp {
+        line-height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (780px < width < 1024px) {
+
+    header {
+        height: 120px;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    /* .Card_1{
+        display: flex;
+        flex-wrap: wrap;
+    } */
+
+    .Card_1 {
+        padding: 20px;
+        width: auto;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Card1_img {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .Card1_img img {
+        width: 50%;
+    }
+
+    .Card1_info {
+        width: 600px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .Card1_info h2 {
+        color: #3c3950;
+        line-height: 69px;
+        font-size: 2rem;
+        font-weight: 700;
+        font-family: 'Montserrat';
+    }
+
+    .Card_3 {
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .slider-container h1 {
+        text-align: center;
+        color: #3c3950;
+        line-height: 69px;
+        font-size: 2rem;
+        font-weight: 700;
+        font-family: 'Montserrat';
+    }
+
+    .slider-container p {
+        color: #3c3950;
+        font-size: 1.2rem;
+        line-height: 69px;
+        font-weight: 700;
+        font-family: 'Montserrat';
+    }
+
+    .Card_5 {
+        height: 600px;
+        width: auto;
+        background-color: black;
+    }
+
+    .Card5_info {
+        padding: 20px;
+        height: 350px;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .Card5_contacts {
+        height: 200px;
+        width: auto;
+    }
+
+    .info_1 span {
+        font-size: 1.2rem;
+        color: white;
+        text-align: center;
+    }
+
+
+
+    .icon {
+        height: 200px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+@media screen and (719px < width < 781px  ) {
+    header {
+        height: 120px;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    /* .Card_1{
+        display: flex;
+        flex-wrap: wrap;
+    } */
+
+    .Card_1 {
+        padding: 20px;
+        width: auto;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Card1_img {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .Card1_img img {
+        width: 50%;
+    }
+
+    .Card1_info {
+        width: 600px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .Card1_info h2 {
+        color: #3c3950;
+        line-height: 69px;
+        font-size: 2rem;
+        font-weight: 700;
+        font-family: 'Montserrat';
+    }
+
+    .Card_3 {
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .slider-container h1 {
+        text-align: center;
+        color: #3c3950;
+        line-height: 69px;
+        font-size: 2rem;
+        font-weight: 700;
+        font-family: 'Montserrat';
+    }
+
+    .slider-container p {
+        color: #3c3950;
+        font-size: 1.2rem;
+        line-height: 69px;
+        font-weight: 700;
+        font-family: 'Montserrat';
+    }
+
+    .Card_5 {
+        height: 600px;
+        width: auto;
+        background-color: black;
+    }
+
+    .Card5_info {
+        padding: 20px;
+        height: 350px;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .Card5_contacts {
+        height: 200px;
+        width: auto;
+    }
+
+    .info_1 span {
+        font-size: 1.2rem;
+        color: white;
+        text-align: center;
+    }
+
+
+
+    .icon {
+        height: 200px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 10px;
+    }
+}
+@media screen and (656px < width < 720px  ) {
+    header {
+        height: 120px;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    /* .Card_1{
+        display: flex;
+        flex-wrap: wrap;
+    } */
+
+    .Card_1 {
+        padding: 20px;
+        width: auto;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Card1_img {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .Card1_img img {
+        width: 50%;
+    }
+
+    .Card1_info {
+        width: 600px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .Card1_info h2 {
+        color: #3c3950;
+        line-height: 69px;
+        font-size: 2rem;
+        font-weight: 700;
+        font-family: 'Montserrat';
+    }
+
+    .Card_3 {
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .slider-container h1 {
+        text-align: center;
+        color: #3c3950;
+        line-height: 69px;
+        font-size: 2rem;
+        font-weight: 700;
+        font-family: 'Montserrat';
+    }
+
+    .slider-container p {
+        color: #3c3950;
+        font-size: 1.2rem;
+        line-height: 69px;
+        font-weight: 700;
+        font-family: 'Montserrat';
+    }
+
+    .Card_5 {
+        height: 600px;
+        width: auto;
+        background-color: black;
+    }
+
+    .Card5_info {
+        padding: 20px;
+        height: 350px;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .Card5_contacts {
+        height: 200px;
+        width: auto;
+    }
+
+    .info_1 span {
+        font-size: 1.2rem;
+        color: white;
+        text-align: center;
+    }
+
+
+
+    .icon {
+        height: 200px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 10px;
+    }
+
+    .logo h2 {
+        color: white;
+        font-size: 25px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 655px) {
+
+    .hidden_nav a:hover {
+        background-color: lightcoral;
+    }
+
+    .Top-area {
+        /* width: auto;
+        height: 50px;
+        background-color: #737373;
+        display: flex;
+        justify-content: center;
+        align-items: center; */
+        display: none;
+    }
+
+    header {
+        height: 120px;
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .bar {
+        display: block;
+    }
+
+    .bar i {
+        color: white;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .Card_1 {
+        padding: 20px;
+        width: auto;
+        height: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Card_3 {
+        padding: 20px;
+        display: flex;
+        height: 600px;
+        width: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .Card1_info {
+        width: auto;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .Card1_info h1 {
+        font-family: "Herr Von Muellerhoff", Palatino, serif;
+        font-size: 80px;
+        font-weight: normal;
+        letter-spacing: 0;
+        padding: 0 72px;
+        margin: 0 -72px;
+        color: #c59d5f;
+    }
+
+    .Card2_info h2 {
+        position: relative;
+        font-family: "Herr Von Muellerhoff", Palatino, serif;
+        font-size: 80px;
+        font-weight: normal;
+        letter-spacing: 0;
+        text-transform: none;
+        padding: 0 72px;
+        margin: 0 -72px;
+        color: #c59d5f;
+        z-index: 1;
+        top: -50px;
+    }
+
+    .Card3_info h1 {
+        
+        font-family: "Herr Von Muellerhoff", Palatino, serif;
+        font-size: 80px;
+        font-weight: normal;
+        letter-spacing: 0;
+        text-transform: none;
+        padding: 0 72px;
+        margin: 0 -72px;
+        color: #c59d5f;
+        z-index: 0;
+    }
+    .Card3_info h2 {
+        position: absolute;
+        font-family: 'Montserrat';
+        font-size: 2rem;
+        color: #3c3950;
+        font-weight: 700;
+        z-index: 1;
+        top:80px;
+    }
+
+    .Card1_img {
+        height: 200px;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .Card1_img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .Card3_img img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .slider-container h1 {
+        text-align: center;
+        color: #3c3950;
+        line-height: 40px;
+        font-size: 1.6rem;
+        font-weight: 700;
+        font-family: 'Montserrat';
+    }
+
+    .slider-container p {
+        color: #3c3950;
+        font-size: 1.3rem;
+        line-height: 35px;
+        font-weight: 400;
+        font-family: 'Montserrat';
+    }
+
+    .Card5_info {
+        height: 350px;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .info_1 span {
+        font-size: 1rem;
+        color: white;
+        text-align: start;
+    }
+
+    .sp {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .sp li {
+        color: white;
+        padding: 10px;
+    }
+
+    .section_body h2 {
+        font-size: 1.8rem;
+        font-family: sans-serif;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .section_body h3 {
+        font-size: 1rem;
+        font-family: sans-serif;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+    }
+
+    .Card3_info {
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        position: relative;
+    }
+
+    
+
+    .lis {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .icons_2 {
+        height: 50px;
+        width: auto;
+        display: flex;
+        gap: 20px;
+    }
+
+    .icon {
+        height: 200px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .Card_5 {
+        height: 75 0px;
+        width: auto;
+        background-color: black;
+    }
+
+    .logo h2 {
+        color: white;
+        font-size: 25px;
+        line-height: 40px;
+    }
+}

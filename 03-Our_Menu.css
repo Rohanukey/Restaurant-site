@@ -1,0 +1,1041 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*--------------------------Top Area----------------------------------*/
+
+.Top-area {
+    width: auto;
+    height: 50px;
+    background-color: #737373;
+    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    width: auto;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.icons {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.info img {
+    width: 20px;
+    height: 20px;
+}
+
+.info a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+
+.icons img {
+    height: 20px;
+    width: 20px;
+    border: none;
+
+}
+
+
+/*-------------------------------Header---------------------------------------*/
+
+
+.section {
+
+    /* filter: brightness(50%); */
+    height: 650px;
+    width: 100%;
+    opacity: 1;
+    position: relative;
+    background-color: black;
+}
+
+
+.section::before {
+    content: "";
+    background-image: url(https://uttardakshin.in/wp-content/uploads/2018/05/parllax-0122.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    inset: 0;
+    filter: brightness(50%);
+}
+
+
+header {
+    height: 120px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+
+}
+
+
+
+
+
+
+.nav {
+
+    height: 117px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 20px;
+}
+
+.nav li {
+    list-style: none;
+    color: white;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.nav li:hover {
+    list-style: none;
+    color: #c59d5f;
+    transition: 0.6s;
+}
+
+#Menu {
+    border: 2px solid #c59d5f;
+    padding: 5px 15px;
+}
+
+
+.section_body {
+    width: auto;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    isolation: isolate;
+
+
+}
+
+.section_body h1 {
+    font-size: 110px;
+    font-family: 'Herr Von Muellerhoff', cursive;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+}
+
+.section_body h2 {
+    font-size: 50px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section_body h3 {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.section_body button {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    opacity: 0.8;
+    border: none;
+    border-radius: 25px;
+    height: 40px;
+    width: 125px;
+}
+
+.section_body button:hover {
+    color: black;
+    background-color: white;
+}
+
+
+.Card_1 {
+    height: 400px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.data {
+    height: 400px;
+    width: 1000px;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.data p {
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: #3c3950;
+    line-height: 25px;
+    font-weight: normal;
+    font-family: 'Montserrat';
+}
+
+.Card_2 {
+    height: 500px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Card_2::before {
+    content: "";
+    background-image: url(https://uttardakshin.in/wp-content/uploads/2018/05/uttar.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    inset: 0;
+    filter: brightness(50%);
+}
+
+.Card_2 h2 {
+    isolation: isolate;
+    line-height: 69px;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    letter-spacing: 10px;
+    color: white;
+
+}
+
+.lis-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Menu {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.opt {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.opt h1 {
+    border-bottom: .5px solid black;
+    font-family: Source Sans Pro;
+    color: #262526;
+    line-height: 42px;
+}
+
+.meals h3 {
+    font-size: 1.3rem;
+    color: #3c3950;
+    font-family: cabin;
+}
+
+.meals {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.Card_3 {
+    height: 500px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Card_3::before {
+    content: "";
+    background-image: url(https://uttardakshin.in/wp-content/uploads/2018/05/dakshin.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    inset: 0;
+    filter: brightness(50%);
+}
+
+.Card_3 h2 {
+    isolation: isolate;
+    line-height: 69px;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    letter-spacing: 10px;
+    color: white;
+
+}
+
+.Cd-Menu {
+    height: 1100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+
+.Card_5 {
+    height: 800px;
+    width: auto;
+    background-color: black;
+}
+
+.Card5_info {
+    height: 350px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.info_1 {
+    height: 300px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.info_1 h4 {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+
+.info_1 span {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+
+.Card5_contacts {
+    height: 400px;
+    width: auto;
+
+}
+
+.icon {
+    height: 300px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon span {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.icons_2 {
+    height: 200px;
+    width: auto;
+    display: flex;
+    gap: 20px;
+}
+
+.icons_2 img {
+    border: none;
+    border-radius: 20px;
+}
+
+.sp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sp span {
+    color: white;
+}
+
+.sp li {
+    color: white;
+}
+
+.lis {
+    display: flex;
+}
+
+.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+/* .nav li {
+    margin-right: 20px;
+    /* Adjust spacing between menu items as needed 
+} */
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    /* Set your desired text color */
+    font-weight: bold;
+    /* Optional: Adjust font weight */
+    font-size: 16px;
+    /* Optional: Adjust font size */
+}
+
+.bar {
+    display: none;
+}
+
+.cover {
+    display: none;
+}
+
+
+.logo h2{
+    color: white;
+    font-size: 30px;
+    line-height: 40px;
+   }
+
+
+.hidden_nav {
+    min-height: 300px;
+    width: 300px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+    left: 25%;
+
+}
+
+.hidden_nav li {
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.hidden_nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.hidden_nav a:hover {
+    background-color: lightcoral;
+    border: none;
+}
+
+
+@media screen and (768px < width <= 1300px) {
+
+    header {
+        height: 120px;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        padding: 15px;
+    }
+
+    .nav {
+        height: 117px;
+        width: 1000px;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        gap: 10px;
+    }
+
+    .nav li {
+        list-style: none;
+        color: white;
+        text-align: center;
+    }
+
+    .Menu {
+        height: auto;
+        /* width: clamp(769px, 0, 1300px); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        padding: 20px;
+    }
+
+    .data {
+        height: 400px;
+        width: 1000px;
+        display: flex;
+        gap: 40px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .opt {
+        width:auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .meals h3 {
+        font-size: 1.3rem;
+        color: #3c3950;
+        font-family: cabin;
+        font-weight: 300;
+    }
+
+    .Cd-Menu {
+        height: 1100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        padding: 20px;
+    }
+
+    .info_1 span {
+        font-size: 1.3rem;
+        color: white;
+        text-align: center;
+    }
+
+    .Card_5 {
+        height: 800px;
+        width: auto;
+        background-color: black;
+        padding: 20px;
+    }
+
+    .meals {
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+    }
+}
+
+@media screen and (630px < width < 769px) {
+
+    body{
+        position: relative;
+    }
+
+    header {
+        height: 120px;
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        padding: 20px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .bar{
+        display: block;
+    }
+
+    .bar i{
+        color: white;
+       
+    }
+
+
+    .hidden_nav {
+        min-height: 300px;
+        width: 300px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 100px;
+        left: 55%;
+    }
+
+    .data {
+        height: 400px;
+        width: 1000px;
+        display: flex;
+        gap: 40px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .Menu {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        padding: 20px;
+    }
+
+
+    .opt {
+        width:auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .meals h3 {
+        font-size: 1.3rem;
+        color: #3c3950;
+        font-family: cabin;
+        font-weight: 300;
+    }
+    .meals {
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+    }
+
+    .Cd-Menu {
+        height: 1100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        padding: 20px;
+    }
+
+    
+}
+
+@media screen and (480px < width < 631px) {
+    body{
+        position: relative;
+    }
+
+    .Top-area {
+        display: none;
+    }
+
+    header {
+        height: 120px;
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        padding: 20px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .bar{
+        display: block;
+    }
+
+    .bar i{
+        color: white;
+       
+    }
+
+
+    .hidden_nav {
+        min-height: 300px;
+        width: 300px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 100px;
+        left: 55%;
+    }
+
+    .data {
+        height: 400px;
+        width: 1000px;
+        display: flex;
+        gap: 40px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .Menu {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        padding: 20px;
+    }
+
+    .opt h1 {
+        border-bottom: .5px solid black;
+        font-family: Source Sans Pro;
+        color: #262526;
+        line-height: 42px;
+        font-size: 1.6rem;
+    }
+
+
+    .opt {
+        width:auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .data p {
+        letter-spacing: 2px;
+        font-size: 1rem;
+        color: #3c3950;
+        line-height: 20px;
+        font-weight: normal;
+        font-family: 'Montserrat';
+    }
+
+    .meals h3 {
+        font-size: 1rem;
+        color: #3c3950;
+        font-family: cabin;
+        font-weight: 300;
+    }
+    .meals {
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+    }
+
+    .Cd-Menu {
+        height: 1100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        padding: 20px;
+    }
+
+    .info_1 span {
+        font-size: 1.3rem;
+        color: white;
+        text-align: center;
+        font-weight: 300;
+        text-align: start;
+    }
+
+    .Card5_info {
+        height: 400px;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .Card_5 {
+        padding: 20px;
+        height: 700px;
+        width: auto;
+        background-color: black;
+    }
+
+    .icon {
+        height: 200px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .Card5_contacts {
+        height: 200px;
+        width: auto;
+    }
+
+    .sp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .lis {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body{
+        position: relative;
+    }
+
+    .Top-area {
+        display: none;
+    }
+
+    header {
+        height: 120px;
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        padding: 20px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .bar{
+        display: block;
+    }
+
+    .bar i{
+        color: white;
+       
+    }
+
+
+    .hidden_nav {
+        min-height: 300px;
+        width: 300px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 100px;
+    
+    }
+
+    .data {
+        height: 400px;
+        width: 1000px;
+        display: flex;
+        gap: 40px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .Menu {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        padding: 20px;
+    }
+
+    .opt h1 {
+        border-bottom: .5px solid black;
+        font-family: Source Sans Pro;
+        color: #262526;
+        line-height: 42px;
+        font-size: 1.6rem;
+    }
+
+
+    .opt {
+        width:auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .data p {
+        letter-spacing: 2px;
+        font-size: 1rem;
+        color: #3c3950;
+        line-height: 20px;
+        font-weight: normal;
+        font-family: 'Montserrat';
+    }
+
+    .meals h3 {
+        font-size: 1rem;
+        color: #3c3950;
+        font-family: cabin;
+        font-weight: 300;
+    }
+    .meals {
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+    }
+
+    .Cd-Menu {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        padding: 20px;
+    }
+
+    .info_1 span {
+        font-size: 1rem;
+        color: white;
+        text-align: center;
+        font-weight: 300;
+        text-align: start;
+    }
+
+    .Card5_info {
+        height: 400px;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .Card_5 {
+        padding: 20px;
+        height: 720px;
+        width: auto;
+        background-color: black;
+    }
+
+    .icon {
+        height: 200px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .Card5_contacts {
+        height: 200px;
+        width: auto;
+    }
+
+    .sp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .lis {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Card_1 {
+        height: 400px;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .data p {
+        letter-spacing: 2px;
+        font-size: 0.8rem;
+        color: #3c3950;
+        line-height: 20px;
+        font-weight: normal;
+        font-family: 'Montserrat';
+    }
+
+    .data {
+        height: 400px;
+        width: 1000px;
+        display: flex;
+        gap: 40px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+}
+
+
