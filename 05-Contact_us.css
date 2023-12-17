@@ -70,7 +70,7 @@
 
 .section::before {
     content: "";
-    background-image: url(/Assets/background_5.jpg);
+    background-image: url(Assets/background_5.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
