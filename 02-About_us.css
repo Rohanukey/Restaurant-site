@@ -93,10 +93,12 @@ header {
 
 }
 
-.logo{
-    width:auto;
-}
 
+.logo {
+    width: 450px;
+    display: inline;
+    font-family: sans-serif;
+}
 
 
 
